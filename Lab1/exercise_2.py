@@ -16,11 +16,10 @@ def exercise2(first_name, last_name):
         exercise2("John", "Doe") returns "John Doe"
     """
     # TODO: Combine first_name and last_name with a space
-    first_name = "melis" 
-    last_name = "telli"
+
     full_name = first_name + ' ' + last_name
     
-    
+    print(full_name)
     return full_name
 
-print(exercise2('melis', 'telli'))
+exercise2('melis', 'telli')
